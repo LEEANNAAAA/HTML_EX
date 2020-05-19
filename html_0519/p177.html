@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .subm{
+            display: block; /**가로로 여러개 쭉**/
+            background-color: #ffffff;
+            border: 1px solid #dedede;
+            cursor: pointer; /**마우스를 가져다대면 손가락모양으로 변함**/
+            padding: 5px 10px 6px 7px; /**위>오른쪽>아래쪽>왼쪽(만약 값이 1개만 있으면 전체 다(상하좌우) 적용, 2개 있을 경우 상하, 좌우로 적용, 3개 있을 경우 위, 좌우, 아래로 적용**/
+        }
+        .subm img{
+            width: 16px;
+            height: 16px;
+        }
+        .subm:hover{ /*마우스를 가져다댔을때 :hover 자체가 형식 사이 : hover 하지 않도록 주의*/
+            background-color: #d6dfc2;
+            border: 1px solid #c6d880;
+            color: #529215; /*글자색*/
+        } 
+    </style>
+</head>
+<body>
+    <form>
+        <button type="submit" class="subm">
+            <img src="images/tick.png" alt=""> 전송하기
+        </button>
+    </form>
+</body>
+</html>
