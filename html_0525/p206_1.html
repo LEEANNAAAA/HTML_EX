@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일 우선순위</title>
+    <style>
+        h1{
+            color: blue;    /*태그 스타일 : 3*/
+        }
+        #habor{
+            color: green;     /*아이디 스타일 순서 : 1*/
+            border: 1px solid gray;
+            padding: 10px;      /*선하고 글씨 사이*/
+            text-align: left;
+            width: 600px;
+        }
+        .heading{
+            color: violet;      /*클래스 스타일 순서 : 2*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading" id="habor">CSS</h1>
+    <img src="images/gugudan-2.jpg" alt="css">
+		<h2>웹 문서의 디자인과 내용을 분리합니다</h2>
+		<p>웹 표준에 의한 웹 문서는 디자인과 내용이 분리되어 있습니다.</p>
+		<p>내용은 HTML을 이용해 구성하고, 디자인은 CSS를 이용해 꾸미는 것입니다.</p>
+</body>
+</html>
