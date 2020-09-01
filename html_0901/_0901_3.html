@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하이테크_3주차_3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{margin: 0; padding: 0; font-family: 'Nanum Gothic', sans-serif;}
+        body{font-family: 'Nanum Gothic', sans-serif;}
+        li{list-style: none;}
+        img{border: 0;}
+        /*무조건 일단 해주기*/
+
+        #main_header{position: relative; width: 960px; margin:0 auto; height: 120px; overflow: hidden; border-bottom:1px solid #ddd;}
+        #main_header #title{position: absolute; left:0; top:20px;}
+        #main_header #title h1{font-family: 'Oswald', sans-serif;}
+        #main_header #title p{font-size: 12px; color: #ddd;}
+        #main_header #main_gnb{position: absolute; right:0; top:20px; }
+        #main_header #main_gnb ul li{float: left; padding-left:20px; color: #ddd; font-size: 12px;}
+        /* #main_header #main_gnb ul li{display: inline-block; padding-left:20px;} */
+        #main_header #main_lnb {position: absolute; right:0; top:60px;}
+        #main_header #main_lnb ul li{float:left;padding-left:30px; font-size: 20px; font-weight: 700;}
+        
+        /* content */
+        #content {width: 960px; margin:0 auto; margin-top:20px; height: 500px; }
+        #content section{width:80%; float: left; padding: 20px; box-sizing: border-box; text-align: justify; margin-left: -20px;}
+        #content section h2{padding-top: 10px;}
+        #content aside{width: 20%; float: right; padding: 20px; box-sizing: border-box;}
+        #content aside li {list-style: disc;}
+        footer{width: 960px; margin: 0 auto; clear: both; height: 80px; text-align: center; padding: 20px;box-sizing: border-box; background: #ddd;}
+    </style>
+</head>
+<body>
+    <!--header-->
+    <header id="main_header">
+        <div id="title">
+            <h1>ANNA Portfolio</h1>
+            <p>Thinking Designer Lee Anna </p>
+        </div>
+        <nav id="main_gnb">
+            <ul>
+                <li>Home</li>
+                <li>Email</li>
+                <li>Mobile</li>
+            </ul>
+        </nav>
+        <nav id="main_lnb">
+            <ul>
+                <li>소개</li>
+                <li>Portfolio</li>
+                <li>Community</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contents-->
+    <div id="content">
+        <section >
+            <article>
+                <h2>Intro</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </article>
+            <article>
+                <h2>Notice</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </article>
+        </section>
+        <aside>
+            <ul>
+                <li>디자인1</li>
+                <li>디자인2</li>
+                <li>디자인3</li>
+                <li>디자인4</li>
+                <li>디자인5</li>
+            </ul>
+        </aside>
+    </div>
+
+    <!--footer-->
+    <footer>Copyright(c)2020 ANNA DESIGN. All rights reserved<br>주소: 학교 주소 ~~</footer>
+
+
+</body>
+</html>
